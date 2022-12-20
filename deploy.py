@@ -70,7 +70,7 @@ def parse_args(args=None):
         '--email',
         help="Specify the sender email address",
         type=str,
-        default='robert.chen@thorntech.com'
+        default='no-reply@example.com'
     )
     parser.add_argument(
         '--project',
